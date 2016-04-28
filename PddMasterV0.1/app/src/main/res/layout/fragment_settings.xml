@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_settings"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView_settings" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_settings_name"
+                android:id="@+id/button_settings_name"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/editText_settings_name"
+                android:layout_centerHorizontal="true"
+                android:translationZ="@dimen/button_translationZ"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@color/button_background_color" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/textView_settings_name"
+                android:id="@+id/textView_settings_name"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_settings_name"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/textView_settings_name"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/textView_settings_wr"
+                android:id="@+id/textView_settings_wr"
+                android:layout_below="@+id/button_settings_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:gravity="center" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_main_screen"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView_main_screen" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_main_tests"
+                android:id="@+id/button_main_test"
+                android:layout_below="@+id/button_main_theory"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:translationZ="@dimen/button_translationZ"
+                android:background="@color/button_background_color" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_main_theory"
+                android:id="@+id/button_main_theory"
+                android:translationZ="@dimen/button_translationZ"
+                android:background="@color/button_background_color"
+                android:layout_marginTop="157dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_main"
+                android:id="@+id/textView_main"
+                android:gravity="center"
+                android:layout_below="@+id/button_main_test"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="38dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_main_priv"
+                android:layout_alignBottom="@+id/button_main_theory"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="77dp"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:gravity="center" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

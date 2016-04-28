@@ -1,0 +1,664 @@
+<resources>
+    <string name="app_name">ПДД Справочник</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Настройки</string>
+
+    //названия пунктов в боковом меню
+    <string name="slide_main">Главная</string>
+    <string name="slide_theory">Изучить теорию</string>
+    <string name="slide_tests">Пройти тесты</string>
+    <string name="slide_debts">Проверка штрафов</string>
+    <string name="slide_tax">Расчет налога на авто</string>
+    <string name="slide_region">Узнать регион по номеру</string>
+    <string name="slide_item_title">Настройки</string>
+    <string name="slide_settings">Настройки</string>
+    <string name="slide_statistic">Статистика</string>
+    <string name="slide_welcome">Добро пожаловать!</string>
+    <string name="slide_choose">Выберите интересующий пункт меню:</string>
+
+    //названия кнопок
+    <string name="button_online_debts">Проверка штрафов онлайн</string>
+    <string name="button_find_region">Найти регион</string>
+    <string name="theory_pdd">Правила Дорожного Движения</string>
+    <string name="theory_znaki">Дорожные Знаки</string>
+    <string name="theroy_razmetka">Дорожная разметка</string>
+    <string name="theory_bilety">Билеты с ответами</string>
+    <string name="theory_prilog">Приложения</string>
+
+    <string name="button1_pdd">1.Общие положения</string>
+    <string name="button2_pdd">2.Общие обязанности водителей</string>
+    <string name="button3_pdd">3.Применение специальных сигналов</string>
+    <string name="button4_pdd">4.Обязанности пешеходов</string>
+    <string name="button5_pdd">5.Обязанности пассажиров</string>
+    <string name="button6_pdd">6.Сигналы светофора и регулировщика</string>
+    <string name="button7_pdd">7.Применение аварийной сигнализации и знака аварийной остановки</string>
+    <string name="button8_pdd">8.Начало движения, маневрирование</string>
+    <string name="button9_pdd">9.Расположение транспортных средств на проезжей части</string>
+    <string name="button10_pdd">10.Скорость движения</string>
+    <string name="button11_pdd">11.Обгон, опрежение, встречный разъезд</string>
+    <string name="button12_pdd">12.Остановка и стоянка</string>
+    <string name="button13_pdd">13.Проезд перекрестков</string>
+    <string name="button14_pdd">14.Пешеходные переходы и места остановок маршрутных транспортных средств</string>
+    <string name="button15_pdd">15.Движение через железнодорожные пути </string>
+    <string name="button16_pdd">16.Движение по автомагистралям </string>
+    <string name="button17_pdd">17.Движение в жилых зонах</string>
+    <string name="button18_pdd">18.Приоритет маршрутных транспортных средств</string>
+    <string name="button19_pdd">19.Пользование внешними световыми приборам и звуковыми сигналами</string>
+    <string name="button20_pdd">20.Буксировка механических транспортных средств</string>
+    <string name="button21_pdd">21.Учебная езда</string>
+    <string name="button22_pdd">22.Перевозка людей</string>
+    <string name="button23_pdd">23.Перевозка грузов</string>
+    <string name="button24_pdd">24.Дополнительные требования к движению велосипедистов и водителей мопедов</string>
+    <string name="button25_pdd">25.Дополнительные требования к движению гужевых повозок, а также к прогону животных </string>
+
+    <string name="button1_znaki">1. ПРЕДУПРЕЖДАЮЩИЕ ЗНАКИ</string>
+    <string name="button2_znaki">2. ЗНАКИ ПРИОРИТЕТА</string>
+    <string name="button3_znaki">3. ЗАПРЕЩАЮЩИЕ ЗНАКИ И ЗНАКИ ЗОН ДЕЙСТВИЯ</string>
+    <string name="button4_znaki">    ДОПОЛНИТЕЛЬНЫЕ ПОЯСНЕНИЯ К ЗАПРЕЩАЮЩИМ ЗНАКАМ</string>
+    <string name="button5_znaki">    ЗНАКИ ЗОН ДЕЙСТВИЯ</string>
+    <string name="button6_znaki">4. ПРЕДПИСЫВАЮЩИЕ ЗНАКИ</string>
+    <string name="button7_znaki">5. УКАЗАТЕЛЬНЫЕ ЗНАКИ</string>
+
+    <string name="button1_prilog">Основные положения по допуску транспортных средств к эксплуатации</string>
+    <string name="button2_prilog">Перечень неисправностей, при которых запрещается эксплуатация транспортных средств </string>
+    <string name="button3_prilog">Комментарии ГИБДД</string>
+
+    <string name="button_calculate">Рассчитать</string>
+    <string name="share_button">Поделиться</string>
+
+    <string name="button_settings_name">Изменить имя пользователя</string>
+
+    <string name="button_main_tests">Решать тесты</string>
+    <string name="button_main_theory">Учить теорию</string>
+
+    <string name="button_bilet_result">Завершить тест</string>
+    <string name="button_test_bilet1">Билет №1</string>
+    <string name="button_test_bilet2">Билет №2</string>
+    <string name="button_test_bilet3">Билет №3</string>
+    <string name="button_test_bilet4">Билет №4</string>
+    <string name="button_test_bilet5">Билет №5</string>
+
+    //вывод в текстовые поля
+    <string name="edit_find_region">Код региона</string>
+    <string name="text_find_region">Название региона</string>
+    <string name="debts_head_text">Таблица штрафов</string>
+    <string name="text_table_region">Список регионов</string>
+    <string name="text_calculator_head">Калькулятор транспортного налога Нижегородской области</string>
+    <string name="text_calculator_power">Мощность двигателя</string>
+    <string name="text_calculator_cost">Стоимость автомобиля</string>
+    <string name="text_calculator_years">Лет с момента выпуска автомобиля</string>
+    <string name="textView_settings_name">Чтобы изменить имя пользователя, введите его в строку и нажмите кнопку</string>
+    <string name="textView_main">Или выберите интересующий пункт в боковом меню</string>
+    <string name="textView_settings_wr">изменения вступят в силу после перезапуска приложения</string>
+    <string name="textView_bilet_result">Результат:</string>
+
+
+    //текст в RadioButton
+    <string name="radioButton_less_3m">меньше 3 миллионов рублей</string>
+    <string name="radioButton_3m_5m">от 3 до 5 миллионов рублей</string>
+    <string name="radioButton_5m_10m">от 5 до 10 миллионов рублей</string>
+    <string name="radioButton_10m_15m">от 10 до 15 миллионов рублей</string>
+    <string name="radioButton_more_15m">от 15 миллионов рублей</string>
+
+    <string name="radioButton_years_1">не более года</string>
+    <string name="radioButton_years_1_2">от года до 2-х лет</string>
+    <string name="radioButton_years_2_3">от 2-х до 3-х лет</string>
+    <string name="radioButton_years_5">не более 5-ти лет</string>
+    <string name="radioButton_years_10">не более 10-ти лет</string>
+    <string name="radioButton_years_15">не более 15-ти лет</string>
+
+
+    //билет№1
+    <string name="bilet_text_name">Билет №1</string>
+    <string name="vopros1">1.Какие транспортные средства по Правилам относятся к маршрутным транспортным средствам?</string>
+    <string name="v1_o1">Все автобусы</string>
+    <string name="v1_o2">Автобусы, троллейбусы и трамваи, предназначенные для перевозки людей и движущиеся по установленному маршруту с обозначенными местами остановок.</string>
+    <string name="v1_o3">Любые транспортные средства, перевозящие пассажиров.</string>
+
+    <string name="vopros2">2.В каких направлениях Вам разрешено продолжить движение?</string>
+    <string name="v2_o1">Только Б.</string>
+    <string name="v2_o2">Только А или Б.</string>
+    <string name="v2_o3">В любых.</string>
+
+    <string name="vopros3">3.Этот дорожный знак указывает:</string>
+    <string name="v3_o1">Расстояние до конца тоннеля.</string>
+    <string name="v3_o2">Расстояние до места аварийной остановки.</string>
+    <string name="v3_o3">Направление движения к аварийному выходу и расстояние до него.</string>
+
+    <string name="vopros4">4.Этот знак разрешает Вам ставить на стоянку легковой автомобиль с использованием тротуара:</string>
+    <string name="v4_o1"> Только на правой стороне дороги до ближайшего по ходу движения перекрестка.</string>
+    <string name="v4_o2">Только на правой стороне дороги до знака «Конец зоны регулируемой стоянки».</string>
+    <string name="v4_o3">На любой стороне дорог, расположенных в зоне регулируемой стоянки.</string>
+
+    <string name="vopros5">5.Эта разметка, нанесенная на полосе движения:</string>
+    <string name="v5_o1">Предоставляет Вам преимущество при перестроении на правую полосу.</string>
+    <string name="v5_o2">Информирует Вас о том, что дорога поворачивает направо.</string>
+    <string name="v5_o3">Предупреждает Вас о приближении к сужению проезжей части.</string>
+
+    <string name="vopros6">6.Что означает мигание зеленого сигнала светофора?</string>
+    <string name="v6_o1">Предупреждает о неисправности светофора.</string>
+    <string name="v6_o2">Разрешает движение и информирует о том, что вскоре будет включен запрещающий сигнал.</string>
+    <string name="v6_o3">Запрещает дальнейшее движение.</string>
+
+    <string name="vopros7">7.Обязаны ли Вы в данной ситуации подать сигнал правого поворота?</string>
+    <string name="v7_o1">Да</string>
+    <string name="v7_o2">Да, но только при наличии движущихся сзади транспортных средств.</string>
+    <string name="v7_o3">Нет.</string>
+
+    <string name="vopros8">8.Кто должен уступить дорогу при одновременном перестроении?</string>
+    <string name="v8_o1">Водитель легкового автомобиля.</string>
+    <string name="v8_o2">Водитель мотоцикла.</string>
+
+    <string name="vopros9">9.По какой траектории Вам разрешено выполнить разворот?</string>
+    <string name="v9_o1">Только по А.</string>
+    <string name="v9_o2">Только по Б.</string>
+    <string name="v9_o3">По любой..</string>
+
+    <string name="vopros10">10.С какой скоростью Вы можете продолжить движение вне населенного пункта по левой полосе на легковом автомобиле?</string>
+    <string name="v10_o1">Не более 50 км/ч.</string>
+    <string name="v10_o2">Не менее 50 км/ч и не более 70 км/ч.</string>
+    <string name="v10_o3">Не менее 50 км/ч и не более 90 км/ч.</string>
+
+    <string name="vopros11">11.Может ли водитель легкового автомобиля в населенном пункте выполнить опережение грузовых автомобилей по такой траектории?</string>
+    <string name="v11_o1">Да.</string>
+    <string name="v11_o2">Нет.</string>
+
+    <string name="vopros12">12.Разрешено ли водителю поставить автомобиль на стоянку в указанном месте?</string>
+    <string name="v12_o1">Да.</string>
+    <string name="v12_o2">Нет.</string>
+
+    <string name="vopros13">13.Вы намерены повернуть направо. Следует ли уступить дорогу автобусу?</string>
+    <string name="v13_o1">Да.</string>
+    <string name="v13_o2">Нет.</string>
+
+    <string name="vopros14">14.Вы намерены проехать перекресток в прямом направлении. Ваши действия?</string>
+    <string name="v14_o1"> Уступите дорогу легковому автомобилю, поскольку он первым въехал на перекресток.</string>
+    <string name="v14_o2">Убедитесь, что легковой автомобиль уступает дорогу, и проедете перекресток первым.</string>
+
+    <string name="vopros15">15.Вы намерены повернуть налево. Кому следует уступить дорогу?</string>
+    <string name="v15_o1">Только автобусу.</string>
+    <string name="v15_o2">Только легковому автомобилю.</string>
+    <string name="v15_o3">Никому.</string>
+
+    <string name="vopros16">16.С какой максимальной скоростью Вы можете продолжить движение за знаком?</string>
+    <string name="v16_o1">60 км/ч.</string>
+    <string name="v16_o2">50 км/ч.</string>
+    <string name="v16_o3">30 км/ч.</string>
+    <string name="v16_o4">20 км/ч.</string>
+
+    <string name="vopros17">17.Какие внешние световые приборы Вы можете использовать при движении в темное время суток на неосвещенных участках дорог?</string>
+    <string name="v17_o1">Только фары ближнего света.</string>
+    <string name="v17_o2">Только фары дальнего света.</string>
+    <string name="v17_o3">Фары ближнего или дальнего света</string>
+
+    <string name="vopros18">18.При какой неисправности разрешается эксплуатация транспортного средства?</string>
+    <string name="v18_o1">Не работают запоры горловин топливных баков.</string>
+    <string name="v18_o2">Не работает механизм регулировки сиденья водителя.</string>
+    <string name="v18_o3"> Не работает устройство обогрева и обдува стекла.</string>
+    <string name="v18_o4">Не работает стеклоподъемник.</string>
+
+    <string name="vopros19">19.В случае, когда правые колеса автомобиля наезжают на неукрепленную влажную обочину, рекомендуется:</string>
+    <string name="v19_o1">Затормозить и полностью остановиться.</string>
+    <string name="v19_o2">Затормозить и плавно направить автомобиль в левую сторону.</string>
+    <string name="v19_o3">Не прибегая к торможению, плавно вернуть автомобиль на проезжую часть.</string>
+
+    <string name="vopros20">20.Когда следует проводить сердечно-легочную реанимацию пострадавшего?</string>
+    <string name="v20_o1"> При потере пострадавшим сознания, независимо от наличия пульса на сонной артерии и дыхания.</string>
+    <string name="v20_o2">При потере пострадавшим сознания и отсутствии пульса на сонной артерии, а также признаков дыхания.</string>
+
+    //билет№2
+    <string name="bilet2_text_name">Билет №2</string>
+    <string name="bilet2_vopros1">1.При движении на легковом автомобиле, оборудованном ремнями безопасности,пристегиваться ремнями должны:</string>
+    <string name="bilet2_v1_o1">Только водитель.</string>
+    <string name="bilet2_v1_o2">Только водитель и пассажир на переднем сиденье.</string>
+    <string name="bilet2_v1_o3">Все лица, находящиеся в автомобиле.</string>
+
+    <string name="bilet2_vopros2">2.Можете ли Вы въехать на мост первым?</string>
+    <string name="bilet2_v2_o1">Да</string>
+    <string name="bilet2_v2_o2">Нет</string>
+
+
+    <string name="bilet2_vopros3">3.С какой максимальной скоростью Вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой не более 3,5 т?</string>
+    <string name="bilet2_v3_o1"> 60 км/ч.</string>
+    <string name="bilet2_v3_o2"> 70 км/ч.</string>
+    <string name="bilet2_v3_o3"> 80 км/ч.</string>
+
+    <string name="bilet2_vopros4">4.Что запрещено в зоне действия этого знака?</string>
+    <string name="bilet2_v4_o1"> Движение со скоростью более 20 км/ч.</string>
+    <string name="bilet2_v4_o2"> Движение только механических транспортных средств.</string>
+    <string name="bilet2_v4_o3">Движение любых транспортных средств.</string>
+
+    <string name="bilet2_vopros5">5.Разрешен ли Вам обгон, если реверсивные светофоры отключены?</string>
+    <string name="bilet2_v5_o1">Разрешен.</string>
+    <string name="bilet2_v5_o2">Разрешен, если скорость автобуса менее 30 км/ч.</string>
+    <string name="bilet2_v5_o3">Не разрешен.</string>
+
+    <string name="bilet2_vopros6">6.В каких направлениях Вам разрешено продолжить движение?</string>
+    <string name="bilet2_v6_o1">Только налево.</string>
+    <string name="bilet2_v6_o2">Прямо и налево.</string>
+    <string name="bilet2_v6_o3">Налево и в обратном направлении.</string>
+
+    <string name="bilet2_vopros7">7.Поднятая вверх рука водителя легкового автомобиля является сигналом, информирующим Вас:</string>
+    <string name="bilet2_v7_o1">О его намерении повернуть направо.</string>
+    <string name="bilet2_v7_o2"> О его намерении продолжить движение прямо.</string>
+    <string name="bilet2_v7_o3">О его намерении снизить скорость, чтобы остановиться и уступить дорогу мотоциклисту.</string>
+
+    <string name="bilet2_vopros8">8.Двигаясь по левой полосе, Вы намерены перестроиться на правую. На каком из рисунков показана ситуация, в которой Вы обязаны уступить дорогу?</string>
+    <string name="bilet2_v8_o1"> На левом.</string>
+    <string name="bilet2_v8_o2"> На правом.</string>
+    <string name="bilet2_v8_o3"> На обоих.</string>
+
+    <string name="bilet2_vopros9">9.Разрешен ли Вам разворот в указанном месте?</string>
+    <string name="bilet2_v9_o1">Разрешен только при отсутствии приближающегося поезда.</string>
+    <string name="bilet2_v9_o2">Разрешен.</string>
+    <string name="bilet2_v9_o3">Запрещен.</string>
+
+    <string name="bilet2_vopros10">10.В каких случаях Вы можете наезжать на прерывистые линии разметки, разделяющие проезжую часть на полосы движения?</string>
+    <string name="bilet2_v10_o1">Только при перестроении.</string>
+    <string name="bilet2_v10_o2">Только при движении в темное время суток.</string>
+    <string name="bilet2_v10_o3">Только если на дороге нет других транспортных средств.</string>
+    <string name="bilet2_v10_o4">Во всех перечисленных случаях.</string>
+
+    <string name="bilet2_vopros11">11.Разрешено ли Вам обогнать мотоциклиста?</string>
+    <string name="bilet2_v11_o1">Разрешено.</string>
+    <string name="bilet2_v11_o2">Запрещено.</string>
+
+    <string name="bilet2_vopros12">12.Нарушил ли водитель грузового автомобиля с разрешенной максимальной массой не более 3,5 т правила стоянки в данной ситуации?</string>
+    <string name="bilet2_v12_o1">Да.</string>
+    <string name="bilet2_v12_o2">Нет.</string>
+
+    <string name="bilet2_vopros13">13.Вы намерены повернуть налево. Кому следует уступить дорогу?</string>
+    <string name="bilet2_v13_o1">Только пешеходам.</string>
+    <string name="bilet2_v13_o2">Только автобусу.</string>
+    <string name="bilet2_v13_o3">Автобусу и пешеходам.</string>
+    <string name="bilet2_v13_o4">Никому.</string>
+
+    <string name="bilet2_vopros14">14.Вы намерены повернуть налево. Ваши действия?</string>
+    <string name="bilet2_v14_o1"> Проедете перекресток первым.</string>
+    <string name="bilet2_v14_o2"> Уступите дорогу автомобилю.</string>
+
+    <string name="bilet2_vopros15">15.Обязан ли мотоциклист уступить Вам дорогу в данной ситуации?</string>
+    <string name="bilet2_v15_o1"> Да.</string>
+    <string name="bilet2_v15_o2">Нет.</string>
+
+
+    <string name="bilet2_vopros16">16.В данной ситуации Вы:</string>
+    <string name="bilet2_v16_o1">Должны уступить дорогу автобусу, начинающему движение от обозначенного места остановки</string>
+    <string name="bilet2_v16_o2"> Имеете преимущество, так как водитель автобуса начинает движение с выездом на вторую полосу.</string>
+
+
+    <string name="bilet2_vopros17">17.В каких из перечисленных случаев запрещена буксировка на гибкой сцепке?</string>
+    <string name="bilet2_v17_o1">Только на горных дорогах.</string>
+    <string name="bilet2_v17_o2">Только в гололедицу.</string>
+    <string name="bilet2_v17_o3">Только в темное время суток и в условиях недостаточной видимости.</string>
+    <string name="bilet2_v17_o4">Во всех перечисленных случаях.</string>
+
+    <string name="bilet2_vopros18">18.При какой максимальной величине остаточной глубины рисунка протектора шин (при отсутствии индикаторов износа) запрещается эксплуатация мототранспортных средств</string>
+    <string name="bilet2_v18_o1"> 0,8 мм.</string>
+    <string name="bilet2_v18_o2"> 1,0 мм.</string>
+    <string name="bilet2_v18_o3">  1,6 мм.</string>
+    <string name="bilet2_v18_o4"> 2,0 мм</string>
+
+    <string name="bilet2_vopros19">19.Что подразумевается под остановочным путем?</string>
+    <string name="bilet2_v19_o1">Расстояние, пройденное транспортным средством с момента обнаружения водителем опасности до полной остановки.</string>
+    <string name="bilet2_v19_o2">Расстояние, пройденное транспортным средством с момента начала срабатывания тормозного привода до полной остановки.</string>
+    <string name="bilet2_v19_o3">Расстояние, соответствующее тормозному пути, определенному технической характеристикой данного транспортного средства.</string>
+
+    <string name="bilet2_vopros20">20.Что подразумевается под временем реакции водителя?</string>
+    <string name="bilet2_v20_o1">Время с момента обнаружения водителем опасности до полной остановки транспортного средства.</string>
+    <string name="bilet2_v20_o2">Время с момента обнаружения водителем опасности до начала принятия мер по ее избежанию.</string>
+    <string name="bilet2_v20_o3">Время, необходимое для переноса ноги с педали подачи топлива на педаль тормоза.</string>
+
+    //билет№3
+    <string name="bilet3_text_name">Билет №3</string>
+    <string name="bilet3_vopros1">1.Выезжая с грунтовой дороги, Вы попадаете:</string>
+    <string name="bilet3_v1_o1">На главную дорогу.</string>
+    <string name="bilet3_v1_o2">На равнозначную дорогу</string>
+
+    <string name="bilet3_vopros2">2.В каком месте Вы должны остановиться?</string>
+    <string name="bilet3_v2_o1">Перед знаком (А).</string>
+    <string name="bilet3_v2_o2">Перед перекрестком (Б).</string>
+    <string name="bilet3_v2_o3">Перед краем пересекаемой проезжей части (В).</string>
+
+
+    <string name="bilet3_vopros3">3.В каком случае Вам необходимо двигаться со скоростью до 40 км/ч?</string>
+    <string name="bilet3_v3_o1"> Во всех случаях</string>
+    <string name="bilet3_v3_o2">  Только в том случае, когда покрытие на дороге влажное.</string>
+
+
+    <string name="bilet3_vopros4">4.Какие из знаков устанавливают в начале дороги с односторонним движением?</string>
+    <string name="bilet3_v4_o1"> Только А.</string>
+    <string name="bilet3_v4_o2"> Только Б.</string>
+    <string name="bilet3_v4_o3">Б или Г.</string>
+    <string name="bilet3_v4_o4"> Б или В.</string>
+
+    <string name="bilet3_vopros5">5.Можете ли Вы остановиться в этом месте для посадки или высадки пассажиров?</string>
+    <string name="bilet3_v5_o1">Да.</string>
+    <string name="bilet3_v5_o2">Да, если Вы не создадите помех движению маршрутных транспортных средств.</string>
+    <string name="bilet3_v5_o3">Нет.</string>
+
+    <string name="bilet3_vopros6">6.В каких направлениях может продолжить движение водитель автомобиля с включенным проблесковым маячком?</string>
+    <string name="bilet3_v6_o1">Только направо.</string>
+    <string name="bilet3_v6_o2">Только прямо или направо.</string>
+    <string name="bilet3_v6_o3"> В любом.</string>
+
+    <string name="bilet3_vopros7">7.В каких случаях Вы не должны подавать предупредительный сигнал указателями поворота?</string>
+    <string name="bilet3_v7_o1">Только при отсутствии на дороге других участников движения.</string>
+    <string name="bilet3_v7_o2">Только если сигнал может ввести в заблуждение других участников движения.</string>
+    <string name="bilet3_v7_o3">В обоих перечисленных случаях.</string>
+
+    <string name="bilet3_vopros8">8.По какой траектории Вы можете выполнить правый поворот?</string>
+    <string name="bilet3_v8_o1"> Только по А.</string>
+    <string name="bilet3_v8_o2"> Только по Б.</string>
+    <string name="bilet3_v8_o3"> По любой.</string>
+
+    <string name="bilet3_vopros9">9.Разрешено ли Вам таким образом выполнить разворот на перекрестке?</string>
+    <string name="bilet3_v9_o1">Да.</string>
+    <string name="bilet3_v9_o2">Нет.</string>
+    >
+
+    <string name="bilet3_vopros10">10.По какой полосе Вам разрешено движение в данной ситуации?</string>
+    <string name="bilet3_v10_o1">По любой.</string>
+    <string name="bilet3_v10_o2">Только по правой.</string>
+
+
+    <string name="bilet3_vopros11">11.В каком случае Вы можете начать обгон, если такой маневр на данном участке дороги не запрещен?</string>
+    <string name="bilet3_v11_o1">Только если полоса встречного движения свободна на достаточном для обгона расстоянии.</string>
+    <string name="bilet3_v11_o2">Только если Вас никто не обгоняет.</string>
+    <string name="bilet3_v11_o3">В случае, если выполнены оба условия.</string>
+
+    <string name="bilet3_vopros12">12.Разрешена ли Вам остановка для посадки пассажира в этом месте?</string>
+    <string name="bilet3_v12_o1">Разрешена.</string>
+    <string name="bilet3_v12_o2">Разрешена, если при этом не будет создано помех для движения маршрутных транспортных средств.</string>
+    <string name="bilet3_v12_o3">Запрещена.</string>
+
+    <string name="bilet3_vopros13">13.При движении прямо Вы:</string>
+    <string name="bilet3_v13_o1">Должны остановиться перед стоп-линией.</string>
+    <string name="bilet3_v13_o2">Можете продолжить движение через перекресток без остановки.</string>
+    <string name="bilet3_v13_o3">Должны уступить дорогу транспортным средствам, движущимся с других направлений.</string>
+
+
+    <string name="bilet3_vopros14">14.Вы намерены повернуть направо. Ваши действия?</string>
+    <string name="bilet3_v14_o1"> Проедете перекресток первым.</string>
+    <string name="bilet3_v14_o2"> Уступите дорогу автомобилю.</string>
+
+    <string name="bilet3_vopros15">15.Вы намерены повернуть налево. Кому следует уступить дорогу?</string>
+    <string name="bilet3_v15_o1"> Трамваю А и легковому автомобилю.</string>
+    <string name="bilet3_v15_o2">Только трамваю А.</string>
+    <string name="bilet3_v15_o3">Всем транспортным средствам.</string>
+    <string name="bilet3_v15_o4">Никому.</string>
+
+
+    <string name="bilet3_vopros16">16.Кто из водителей нарушил правила остановки?</string>
+    <string name="bilet3_v16_o1">Только водитель легкового автомобиля.</string>
+    <string name="bilet3_v16_o2"> Только водитель легкового автомобиля.</string>
+    <string name="bilet3_v16_o3"> Оба нарушили.</string>
+
+
+    <string name="bilet3_vopros17">17.Какие из перечисленных требований предъявляются к обучаемому, допущенному к учебной езде на дорогах?</string>
+    <string name="bilet3_v17_o1">Возраст не менее 16 лет.</string>
+    <string name="bilet3_v17_o2">Наличие первоначальных навыков управления.</string>
+    <string name="bilet3_v17_o3">Знание Правил дорожного движения.</string>
+    <string name="bilet3_v17_o4">Все перечисленные требования.</string>
+
+    <string name="bilet3_vopros18">18.В каких случаях запрещается эксплуатация мотоцикла?</string>
+    <string name="bilet3_v18_o1"> При отсутствии предусмотренных конструкцией дуг безопасности, подножек, поперечных рукояток для пассажиров на седле.</string>
+    <string name="bilet3_v18_o2"> Только при отсутствии предусмотренных конструкцией дуг безопасности.</string>
+    <string name="bilet3_v18_o3">  Только при отсутствии предусмотренных конструкцией подножек, поперечных рукояток для пассажиров на седле.</string>
+
+
+    <string name="bilet3_vopros19">19.На повороте возник занос задней оси переднеприводного автомобиля. Ваши действия?</string>
+    <string name="bilet3_v19_o1"> Уменьшите подачу топлива, рулевым колесом стабилизируете движение.</string>
+    <string name="bilet3_v19_o2"> Притормозите и повернете рулевое колесо в сторону заноса.</string>
+    <string name="bilet3_v19_o3">Значительно увеличите подачу топлива, не меняя положения рулевого колеса.</string>
+    <string name="bilet3_v19_o4">Слегка увеличите подачу топлива, корректируя направление движения рулевым колесом.</string>
+
+    <string name="bilet3_vopros20">20.Какие сведения необходимо сообщить диспетчеру для вызова «Скорой помощи» при ДТП?</string>
+    <string name="bilet3_v20_o1">Указать общеизвестные ориентиры, ближайшие к месту ДТП. Сообщить о количестве пострадавших, указать их пол и возраст.</string>
+    <string name="bilet3_v20_o2"> Указать улицу и номер дома, ближайшего к месту ДТП. Сообщить, кто пострадал в ДТП (пешеход, водитель автомобиля или пассажиры), и описать травмы, которые они получили.</string>
+    <string name="bilet3_v20_o3">Указать точное место совершенного ДТП (назвать улицу, номер дома и общеизвестные ориентиры, ближайшие к месту ДТП). Сообщить о количестве пострадавших, их пол, примерный возраст и о наличии у них признаков жизни, а также сильного кровотечения.</string>
+
+
+    //билет№4
+    <string name="bilet4_text_name">Билет №4</string>
+    <string name="bilet4_vopros1">1.Проезжая часть данной дороги имеет:</string>
+    <string name="bilet4_v1_o1">Одну полосу для движения.</string>
+    <string name="bilet4_v1_o2">Две полосы для движения.</string>
+    <string name="bilet4_v1_o3">Три полосы для движения.</string>
+
+    <string name="bilet4_vopros2">2.Эти знаки предупреждают Вас:</string>
+    <string name="bilet4_v2_o1">О наличии через 500 м опасных поворотов.</string>
+    <string name="bilet4_v2_o2">О том, что на расстоянии 150—300 м за дорожным знаком начнется участок дороги протяженностью 500 м с опасными поворотами.</string>
+    <string name="bilet4_v2_o3">О том, что сразу за знаком начнется участок протяженностью 500 м с опасными поворотами.</string>
+
+
+    <string name="bilet4_vopros3">3.Какой из знаков распространяет свое действие только на ту полосу, над которой он установлен?</string>
+    <string name="bilet4_v3_o1">  Только А.</string>
+    <string name="bilet4_v3_o2">  Только Б.</string>
+    <string name="bilet4_v3_o3">  Б и В.</string>
+
+
+    <string name="bilet4_vopros4">4.Этот дорожный знак с желтым фоном информирует Вас о том, что:</string>
+    <string name="bilet4_v4_o1"> Дальнейшее движение возможно только по второй полосе.</string>
+    <string name="bilet4_v4_o2"> Дальнейшее движение возможно только по проезжей части встречного направления.</string>
+    <string name="bilet4_v4_o3">Дальнейшее движение возможно только по другой дороге.</string>
+
+
+    <string name="bilet4_vopros5">5.Что означает разметка в виде надписи «СТОП» на проезжей части?</string>
+    <string name="bilet4_v5_o1">Предупреждает о приближении к стоп-линии перед регулируемым перекрестком.</string>
+    <string name="bilet4_v5_o2">Предупреждает о приближении к стоп-линии и знаку «Движение без остановки запрещено».</string>
+    <string name="bilet4_v5_o3">Предупреждает о приближении к знаку «Уступите дорогу».</string>
+
+    <string name="bilet4_vopros6">6.Каким транспортным средствам разрешено движение прямо?</string>
+    <string name="bilet4_v6_o1">Только легковому и грузовому автомобилям.</string>
+    <string name="bilet4_v6_o2">Только грузовому автомобилю.</string>
+    <string name="bilet4_v6_o3"> Только грузовому автомобилю и автобусу.</string>
+    <string name="bilet4_v6_o4"> Всем транспортным средствам.</string>
+
+    <string name="bilet4_vopros7">7.Вы намерены продолжить движение по главной дороге. Обязаны ли Вы при этом включить правые указатели поворота?</string>
+    <string name="bilet4_v7_o1"> Да.</string>
+    <string name="bilet4_v7_o2"> Да, только при наличии движущегося сзади транспортного средства.</string>
+    <string name="bilet4_v7_o3"> Нет.</string>
+
+    <string name="bilet4_vopros8">8.Кто обязан уступить дорогу?</string>
+    <string name="bilet4_v8_o1"> Водитель грузового автомобиля.</string>
+    <string name="bilet4_v8_o2"> Водитель легкового автомобиля.</string>
+
+
+    <string name="bilet4_vopros9">9.По какой траектории Вы можете выполнить разворот?</string>
+    <string name="bilet4_v9_o1">Только по А.</string>
+    <string name="bilet4_v9_o2">Только по Б.</string>
+    <string name="bilet4_v9_o3">По любой.</string>
+    >
+
+    <string name="bilet4_vopros10">10.По какой полосе проезжей части Вам разрешено движение в населенном пункте, если по техническим причинам Ваше транспортное средство не может развивать скорость более 40 км/ч?</string>
+    <string name="bilet4_v10_o1">Только по крайней правой..</string>
+    <string name="bilet4_v10_o2"> Не далее второй полосы.</string>
+    <string name="bilet4_v10_o3"> По любой, кроме крайней левой.</string>
+
+
+    <string name="bilet4_vopros11">11.Разрешено ли Вам обогнать мотоциклиста?</string>
+    <string name="bilet4_v11_o1">Разрешено.</string>
+    <string name="bilet4_v11_o2"> Разрешено только после проезда перекрестка.</string>
+    <string name="bilet4_v11_o3">Запрещено.</string>
+
+    <string name="bilet4_vopros12">12.Кто из водителей нарушил правила стоянки?</string>
+    <string name="bilet4_v12_o1">Оба нарушили.</string>
+    <string name="bilet4_v12_o2">Только водитель автомобиля.</string>
+    <string name="bilet4_v12_o3">Только водитель мотоцикла.</string>
+    <string name="bilet4_v12_o4">Никто не нарушил.</string>
+
+    <string name="bilet4_vopros13">13.Вы намерены проехать перекресток в прямом направлении. Ваши действия?</string>
+    <string name="bilet4_v13_o1"> Проедете первым.</string>
+    <string name="bilet4_v13_o2">Уступите дорогу только встречному автомобилю.</string>
+    <string name="bilet4_v13_o3">Уступите дорогу только автомобилю с включенными проблесковым маячком и специальным звуковым сигналом.</string>
+    <string name="bilet4_v13_o4">Уступите дорогу обоим транспортным средствам.</string>
+
+
+    <string name="bilet4_vopros14">14.Вы намерены продолжить движение в прямом направлении. Ваши действия?</string>
+    <string name="bilet4_v14_o1">Проедете перекресток первым.</string>
+    <string name="bilet4_v14_o2"> Продолжите движение только после выезда на перекресток легкового автомобиля.</string>
+
+    <string name="bilet4_vopros15">15.Вы намерены развернуться. Ваши действия?</string>
+    <string name="bilet4_v15_o1"> Уступите дорогу только легковому автомобилю и развернетесь.</string>
+    <string name="bilet4_v15_o2">Уступите дорогу обоим транспортным средствам и развернетесь.</string>
+
+
+    <string name="bilet4_vopros16">16.Какие действия запрещены в жилой зоне?</string>
+    <string name="bilet4_v16_o1">Только сквозное движение.</string>
+    <string name="bilet4_v16_o2"> Только учебная езда.</string>
+    <string name="bilet4_v16_o3">  Только стоянка с работающим двигателем.</string>
+    <string name="bilet4_v16_o4">  Все вышеперечисленные действия.</string>
+
+
+    <string name="bilet4_vopros17">17.Какое расстояние должно быть обеспечено между буксирующим и буксируемым транспортными средствами при буксировке на жесткой сцепке?</string>
+    <string name="bilet4_v17_o1"> Не более 4 м.</string>
+    <string name="bilet4_v17_o2"> От 4 до 6 м.</string>
+    <string name="bilet4_v17_o3"> Правилами не регламентируется.</string>
+
+
+    <string name="bilet4_vopros18">18.В каком случае Вам разрешается эксплуатация транспортного средства?</string>
+    <string name="bilet4_v18_o1"> Загрязнены внешние световые приборы.</string>
+    <string name="bilet4_v18_o2">Нарушена регулировка фар.</string>
+    <string name="bilet4_v18_o3">  На световых приборах используются рассеиватели, не соответствующие типу данного светового прибора.</string>
+    <string name="bilet4_v18_o4">  Отсутствуют противотуманные фары.</string>
+
+
+    <string name="bilet4_vopros19">19.Что следует предпринять водителю для предотвращения опасных последствий заноса автомобиля при резком повороте рулевого колеса на скользкой дороге?</string>
+    <string name="bilet4_v19_o1">  Быстро, но плавно повернуть рулевое колесо в сторону заноса, затем опережающим воздействием на рулевое колесо выровнять траекторию движения автомобиля.</string>
+    <string name="bilet4_v19_o2">Выключить сцепление.</string>
+    <string name="bilet4_v19_o3">Нажать на педаль тормоза.</string>
+
+
+    <string name="bilet4_vopros20">20.Как следует расположить руки на грудной клетке пострадавшего при выполнении непрямого массажа сердца?</string>
+    <string name="bilet4_v20_o1">Основания ладоней обеих рук должны располагаться на грудной клетке на два пальца выше мечевидного отростка так, чтобы большой палец одной руки указывал в сторону левого плеча пострадавшего, а другой - в сторону правого плеча.</string>
+    <string name="bilet4_v20_o2"> Основания ладоней обеих рук, которые накладываются одна на другую, должны располагаться на грудине на два пальца выше мечевидного отростка так чтобы большой палец одной руки указывал в сторону подбородка пострадавшего, а другой -в сторону живота.</string>
+    <string name="bilet4_v20_o3">Непрямой массаж сердца выполняют основанием ладони только одной руки, расположенной на грудной клетке на два пальца ниже мечевидного отростка. Направление большого пальца не имеет значения.</string>
+
+
+    //билет№5
+    <string name="bilet5_text_name">Билет №5</string>
+    <string name="bilet5_vopros1">1.Сколько проезжих частей имеет данная дорога?</string>
+    <string name="bilet5_v1_o1">Одну.</string>
+    <string name="bilet5_v1_o2">Две.</string>
+    <string name="bilet5_v1_o3">Четыре.</string>
+
+    <string name="bilet5_vopros2">2.Какие знаки распространяют свое действие только на период времени, когда покрытие проезжей части влажное?</string>
+    <string name="bilet5_v2_o1"> Только А.</string>
+    <string name="bilet5_v2_o2">Только А и Б.</string>
+    <string name="bilet5_v2_o3">Все.</string>
+
+
+    <string name="bilet5_vopros3">3.Разрешена ли Вам стоянка в указанном месте?</string>
+    <string name="bilet5_v3_o1">  Разрешена.</string>
+    <string name="bilet5_v3_o2">  Разрешена, но только в светлое время суток.</string>
+    <string name="bilet5_v3_o3"> Запрещена.</string>
+
+
+    <string name="bilet5_vopros4">4.Нарушил ли водитель грузового автомобиля правила стоянки?:</string>
+    <string name="bilet5_v4_o1"> Нарушил.</string>
+    <string name="bilet5_v4_o2"> Нарушил, если разрешенная максимальная масса автомобиля более 3,5 т.</string>
+    <string name="bilet5_v4_o3">Не нарушил.</string>
+
+
+    <string name="bilet5_vopros5">5.Такая вертикальная разметка на ограждении дороги предупреждает Вас:</string>
+    <string name="bilet5_v5_o1">О приближении к железнодорожному переезду..</string>
+    <string name="bilet5_v5_o2">О приближении к опасному пересечению.</string>
+    <string name="bilet5_v5_o3">О движении по опасному участку дороги.</string>
+
+    <string name="bilet5_vopros6">6.Разрешается ли Вам продолжить движение, если при включении желтого сигнала светофора после зеленого Вы можете остановиться перед перекрестком, только применив экстренное торможение?</string>
+    <string name="bilet5_v6_o1">Разрешается.</string>
+    <string name="bilet5_v6_o2">Разрешается, только если Вы намерены проехать перекресток в прямом направлении.</string>
+    <string name="bilet5_v6_o3">Не разрешается.</string>
+
+
+    <string name="bilet5_vopros7">7.Такой сигнал рукой, подаваемый мотоциклистом, информирует Вас:</string>
+    <string name="bilet5_v7_o1"> О его намерении продолжить движение прямо.</string>
+    <string name="bilet5_v7_o2"> О его намерении повернуть направо.</string>
+    <string name="bilet5_v7_o3"> О его намерении снизить скорость, чтобы остановиться и уступить дорогу легковому автомобилю.</string>
+
+    <string name="bilet5_vopros8">8.В каких направлениях Вы можете продолжить движение по второй полосе на легковом автомобиле?</string>
+    <string name="bilet5_v8_o1"> Только прямо.</string>
+    <string name="bilet5_v8_o2"> Только прямо и налево.</string>
+    <string name="bilet5_v8_o3"> Только прямо и направо.</string>
+    <string name="bilet5_v8_o4"> Прямо, налево и в обратном направлении.</string>
+
+
+    <string name="bilet5_vopros9">9.Вам необходимо повернуть на примыкающую справа дорогу. Ваши действия?</string>
+    <string name="bilet5_v9_o1">Не меняя полосы, снизить скорость, затем перестроиться на полосу торможения.</string>
+    <string name="bilet5_v9_o2">Не меняя скорости, перестроиться на полосу торможения, снизить скорость, затем приступить к повороту.</string>
+    <string name="bilet5_v9_o3">Возможны оба варианта действий.</string>
+    >
+
+    <string name="bilet5_vopros10">10.С какой максимальной скоростью Вы можете продолжить движение на легковом автомобиле с прицепом?</string>
+    <string name="bilet5_v10_o1"> 50 км/ч.</string>
+    <string name="bilet5_v10_o2"> 60 км/ч.</string>
+    <string name="bilet5_v10_o3"> 70 км/ч.</string>
+    <string name="bilet5_v10_o4"> 80 км/ч..</string>
+    <string name="bilet5_v10_o5"> 90 км/ч.</string>
+
+
+    <string name="bilet5_vopros11">11.Можете ли Вы после опережения грузового автомобиля продолжить движение по левой полосе?</string>
+    <string name="bilet5_v11_o1">Да.</string>
+    <string name="bilet5_v11_o2"> Нет.</string>
+
+
+    <string name="bilet5_vopros12">12.Разрешено ли Вам поставить автомобиль на стоянку в указанном месте?</string>
+    <string name="bilet5_v12_o1">Разрешено.</string>
+    <string name="bilet5_v12_o2">Разрешено, если при этом не будут созданы помехи для движения маршрутных транспортных средств.</string>
+    <string name="bilet5_v12_o3">Запрещено.</string>
+
+
+    <string name="bilet5_vopros13">13.Вы намерены развернуться. Ваши действия?</string>
+    <string name="bilet5_v13_o1"> Проедете перекресток первым.</string>
+    <string name="bilet5_v13_o2">Произведете разворот, уступив дорогу легковому автомобилю.</string>
+
+
+    <string name="bilet5_vopros14">14.Вы намерены проехать перекресток в прямом направлении. Кому следует уступить дорогу?</string>
+    <string name="bilet5_v14_o1">Только трамваю.</string>
+    <string name="bilet5_v14_o2"> Только легковому автомобилю.</string>
+    <string name="bilet5_v14_o3"> Обоим транспортным средствам.</string>
+
+    <string name="bilet5_vopros15">15.Вы намерены повернуть налево. Ваши действия?</string>
+    <string name="bilet5_v15_o1">Проедете перекресток первым.</string>
+    <string name="bilet5_v15_o2">Уступите дорогу только грузовому автомобилю с включенным проблесковым маячком.</string>
+    <string name="bilet5_v15_o3">Уступите дорогу обоим транспортным средствам.</string>
+
+
+    <string name="bilet5_vopros16">16.Разрешено ли Вам проехать железнодорожный переезд?</string>
+    <string name="bilet5_v16_o1"> Да, так как дежурный по переезду запрещает движение только встречному автомобилю.</string>
+    <string name="bilet5_v16_o2"> Да, если отсутствует приближающийся поезд.</string>
+    <string name="bilet5_v16_o3">   Нет.</string>
+
+
+    <string name="bilet5_vopros17">17.В каких случаях разрешено применять звуковые сигналы в населенных пунктах?</string>
+    <string name="bilet5_v17_o1"> Только для предупреждения о намерении произвести обгон..</string>
+    <string name="bilet5_v17_o2"> Только для предотвращения дорожно-транспортного происшествия.</string>
+    <string name="bilet5_v17_o3"> В обоих перечисленных случаях.</string>
+
+
+    <string name="bilet5_vopros18">18.При каком значении суммарного люфта в рулевом управлении допускается эксплуатация легкового автомобиля?</string>
+    <string name="bilet5_v18_o1">  Не более 10 градусов.</string>
+    <string name="bilet5_v18_o2">Не более 20 градусов.</string>
+    <string name="bilet5_v18_o3">  Не более 25 градусов.</string>
+
+
+    <string name="bilet5_vopros19">19.Вероятность возникновения аварийной ситуации при движении в плотном транспортном потоке будет меньше, если скорость Вашего транспортного средства:</string>
+    <string name="bilet5_v19_o1">  Значительно меньше средней скорости потока.</string>
+    <string name="bilet5_v19_o2">Значительно больше средней скорости потока.</string>
+    <string name="bilet5_v19_o3">Равна средней скорости потока.</string>
+
+
+    <string name="bilet5_vopros20">20.При движении в условиях тумана расстояние до предметов представляется:</string>
+    <string name="bilet5_v20_o1">Большим, чем в действительности.</string>
+    <string name="bilet5_v20_o2">Меньшим, чем в действительности.</string>
+    <string name="bilet5_v20_o3">Соответствующим действительности.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

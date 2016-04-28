@@ -1,0 +1,208 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_calculator"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_calculator_head"
+                android:id="@+id/textView_calculator_head"
+                android:gravity="center"
+                android:background="@color/button_background_color" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_calculator_power"
+                android:id="@+id/textView_calculator_power"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/textView_calculator_head"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText_calculator_power"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView_calculator_power"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_calculator_cost"
+                android:id="@+id/textView_calculator_cost"
+                android:layout_below="@+id/editText_calculator_power"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_below="@+id/editText_calculator_power"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/radioGroup_cost">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_less_3m"
+                    android:id="@+id/radioButton_less_3m" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_3m_5m"
+                    android:id="@+id/radioButton_3m_5m" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_5m_10m"
+                    android:id="@+id/radioButton_5m_10m" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_10m_15m"
+                    android:id="@+id/radioButton_10m_15m" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_more_15m"
+                    android:id="@+id/radioButton_more_15m" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_calculator_years"
+                android:id="@+id/textView_calculator_years"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView_calculator_years"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/radioGroup_years">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_years_1"
+                    android:id="@+id/radioButton_years_1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_years_1_2"
+                    android:id="@+id/radioButton_years_1_2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_years_2_3"
+                    android:id="@+id/radioButton_years_2_3" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_years_5"
+                    android:id="@+id/radioButton_years_5" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_years_10"
+                    android:id="@+id/radioButton_years_10" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioButton_years_15"
+                    android:id="@+id/radioButton_years_15" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_calculate"
+                    android:id="@+id/button_calculate"
+                    android:layout_below="@+id/radioGroup2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@color/button_background_color"
+                    android:translationZ="@dimen/button_translationZ"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/share_button"
+                    android:id="@+id/button_calc_share"
+                    android:layout_below="@+id/button_calculate"
+                    android:layout_alignLeft="@+id/button_calculate"
+                    android:layout_alignStart="@+id/button_calculate"
+                    android:layout_marginTop="55dp"
+                    android:layout_alignRight="@+id/button_calculate"
+                    android:layout_alignEnd="@+id/button_calculate"
+                    android:background="@color/button_background_color"
+                    android:translationZ="@dimen/button_translationZ"
+                    android:layout_marginLeft="35dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText_calculate"
+                android:layout_alignBottom="@+id/button_calculate"
+                android:layout_toRightOf="@+id/textView_calculator_cost"
+                android:textColor="@color/abc_input_method_navigation_guard" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

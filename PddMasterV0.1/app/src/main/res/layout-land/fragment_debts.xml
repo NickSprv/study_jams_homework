@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_debts"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_online_debts"
+            android:id="@+id/button_debts"
+            android:textColor="@color/button_text_color"
+            android:background="@color/button_background_color"
+            android:paddingLeft="@dimen/button_padding"
+            android:paddingRight="@dimen/button_padding"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:translationZ="@dimen/button_translationZ" />
+
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/debts_web_view"
+            android:layout_toStartOf="@+id/button_debts"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/button_debts" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/debts_head_text"
+            android:id="@+id/debts_head_text"
+            android:gravity="center"
+            android:layout_above="@+id/debts_web_view"
+            android:layout_toLeftOf="@+id/button_debts"
+            android:layout_toStartOf="@+id/button_debts"
+            android:paddingBottom="10dp" />
+    </RelativeLayout>
+</FrameLayout>

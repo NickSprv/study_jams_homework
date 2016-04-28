@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_regions"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_find_region"
+            android:id="@+id/button_find_region"
+            android:textColor="@color/button_text_color"
+            android:background="@color/button_background_color"
+            android:paddingLeft="@dimen/button_padding"
+            android:paddingRight="@dimen/button_padding"
+            android:layout_alignTop="@+id/edit_find_region"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical|right"
+            android:translationZ="@dimen/button_translationZ" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_find_region"
+            android:id="@+id/text_find_region"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_find_region"
+            android:text="@string/edit_find_region"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/text_find_region"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="left|center_vertical"
+            android:cursorVisible="true"
+            android:inputType="numberDecimal"
+            >
+        <requestFocus />
+        </EditText>
+
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/regions_web_view"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/text_table_region"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button_find_region"
+            android:layout_alignEnd="@+id/button_find_region" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_table_region"
+            android:id="@+id/text_table_region"
+            android:layout_below="@+id/button_find_region"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

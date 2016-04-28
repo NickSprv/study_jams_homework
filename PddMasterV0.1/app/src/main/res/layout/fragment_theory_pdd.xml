@@ -1,0 +1,252 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView_theoru_pdd"
+        android:clickable="false"
+
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button1_pdd"
+                android:id="@+id/button1_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button2_pdd"
+                android:id="@+id/button2_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button3_pdd"
+                android:id="@+id/button3_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button4_pdd"
+                android:id="@+id/button4_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button5_pdd"
+                android:id="@+id/button5_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button6_pdd"
+                android:id="@+id/button8_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button7_pdd"
+                android:id="@+id/button6_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button8_pdd"
+                android:id="@+id/button7_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button9_pdd"
+                android:id="@+id/button9_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button10_pdd"
+                android:id="@+id/button10_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button11_pdd"
+                android:id="@+id/button11_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button12_pdd"
+                android:id="@+id/button12_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button13_pdd"
+                android:id="@+id/button13_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button14_pdd"
+                android:id="@+id/button14_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button15_pdd"
+                android:id="@+id/button15_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button16_pdd"
+                android:id="@+id/button16_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button17_pdd"
+                android:id="@+id/button17_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button18_pdd"
+                android:id="@+id/button18_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button19_pdd"
+                android:id="@+id/button19_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button20_pdd"
+                android:id="@+id/button20_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button21_pdd"
+                android:id="@+id/button21_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button22_pdd"
+                android:id="@+id/button22_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button23_pdd"
+                android:id="@+id/button23_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button24_pdd"
+                android:id="@+id/button24_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button25_pdd"
+                android:id="@+id/button25_pdd"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_marginTop="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

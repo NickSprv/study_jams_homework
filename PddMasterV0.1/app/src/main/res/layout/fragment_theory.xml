@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_theory"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theory_znaki"
+                android:id="@+id/theory_znaki"
+                android:paddingRight="70dp"
+                android:paddingLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/theory_pdd"
+                android:layout_centerHorizontal="true"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theroy_razmetka"
+                android:id="@+id/theroy_razmetka"
+                android:paddingRight="70dp"
+                android:paddingLeft="70dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_below="@+id/theory_znaki"
+                android:layout_alignLeft="@+id/theory_znaki"
+                android:layout_alignStart="@+id/theory_znaki"
+                android:layout_marginTop="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theory_pdd"
+                android:id="@+id/theory_pdd"
+                android:layout_marginTop="40dp"
+                android:translationZ="@dimen/button_translationZ"
+                android:background="@color/button_background_color"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/theory_znaki"
+                android:layout_alignStart="@+id/theory_znaki" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theory_bilety"
+                android:id="@+id/theory_bilet"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_below="@+id/theroy_razmetka"
+                android:layout_alignLeft="@+id/theroy_razmetka"
+                android:layout_alignStart="@+id/theroy_razmetka"
+                android:layout_marginTop="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theory_prilog"
+                android:id="@+id/theory_prilog"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ"
+                android:layout_below="@+id/theory_bilet"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

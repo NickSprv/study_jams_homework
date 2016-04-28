@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_theory_znaki"
+    android:background="@color/foreground_material_dark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView_znaki" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button1_znaki"
+                android:id="@+id/button1_znaki"
+                android:layout_marginTop="15dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button2_znaki"
+                android:id="@+id/button2_znaki"
+                android:layout_marginTop="15dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button3_znaki"
+                android:id="@+id/button3_znaki"
+                android:layout_marginTop="15dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button4_znaki"
+                android:id="@+id/button4_znaki"
+                android:layout_marginTop="15dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button5_znaki"
+                android:id="@+id/button5_znaki"
+                android:layout_marginTop="15dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button6_znaki"
+                android:id="@+id/button6_znaki"
+                android:layout_marginTop="15dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button7_znaki"
+                android:id="@+id/button7_znaki"
+                android:layout_marginTop="15dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

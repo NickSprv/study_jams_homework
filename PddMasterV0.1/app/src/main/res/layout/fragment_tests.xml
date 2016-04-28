@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_tests"
+    android:background="@color/background_floating_material_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView10" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_test_bilet1"
+                android:id="@+id/button_test_bilet1"
+                android:layout_marginTop="25dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_test_bilet2"
+                android:id="@+id/button_test_bilet2"
+                android:layout_marginTop="17dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_test_bilet3"
+                android:id="@+id/button_test_bilet3"
+                android:layout_marginTop="17dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_test_bilet4"
+                android:id="@+id/button_test_bilet4"
+                android:layout_marginTop="17dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_test_bilet5"
+                android:id="@+id/button_test_bilet5"
+                android:layout_marginTop="17dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

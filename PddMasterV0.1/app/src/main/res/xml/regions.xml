@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<regions>
+    <region number="01" name=" Республика Адыгея"/>
+    <region number="02" name=" Республика Башкортостан (1993-2006 гг)"/>
+    <region number="03" name=" Республика Бурятия"/>
+    <region number="04" name=" Республика Алтай"/>
+    <region number="05" name=" Республика Дагестан"/>
+    <region number="06" name=" Республика Ингушетия"/>
+    <region number="07" name=" Кабардино-Балкарская Республика"/>
+    <region number="08" name=" Республика Калмыкия"/>
+    <region number="09" name=" Карачаево-Черкесская Республика"/>
+    <region number="10" name=" Республика Карелия"/>
+    <region number="11" name=" Республика Коми"/>
+    <region number="12" name=" Республика Марий Эл"/>
+    <region number="13" name=" Республика Мордовия"/>
+    <region number="14" name=" Республика Саха (Якутия)"/>
+    <region number="15" name=" Республика Северная Осетия - Алания"/>
+    <region number="16" name=" Республика Татарстан (1993-2006 гг)"/>
+    <region number="17" name=" Республика Тыва"/>
+    <region number="18" name=" Удмуртская Республика"/>
+    <region number="19" name=" Республика Хакасия"/>
+    <region number="20" name=" Чеченская республика (1993-2000 гг)"/>
+    <region number="21" name=" Чувашская Республика"/>
+    <region number="22" name=" Алтайский край"/>
+    <region number="23" name=" Краснодарский край ( 1993-2005 гг)"/>
+    <region number="24" name=" Красноярский край (1993-2009 гг)"/>
+    <region number="25" name=" Приморский край (1993-2005 гг)"/>
+    <region number="26" name=" Ставропольский край"/>
+    <region number="27" name=" Хабаровский край"/>
+    <region number="28" name=" Амурская область"/>
+    <region number="29" name=" Архангельская область"/>
+    <region number="30" name=" Астраханская область"/>
+    <region number="31" name=" Белгородская область"/>
+    <region number="32" name=" Брянская область"/>
+    <region number="33" name=" Владимирская область"/>
+    <region number="34" name=" Волгоградская область (1993-2012 гг)"/>
+    <region number="35" name=" Вологодская область"/>
+    <region number="36" name=" Воронежская область"/>
+    <region number="37" name=" Ивановская область"/>
+    <region number="38" name=" Иркутская область"/>
+    <region number="39" name=" Калининградская область"/>
+    <region number="40" name=" Калужская область"/>
+    <region number="41" name=" Камчатский край"/>
+    <region number="42" name=" Кемеровская область (1993-2011 гг)"/>
+    <region number="43" name=" Кировская область"/>
+    <region number="44" name=" Костромская область"/>
+    <region number="45" name=" Курганская область"/>
+    <region number="46" name=" Курская область"/>
+    <region number="47" name=" Ленинградская область"/>
+    <region number="48" name=" Липецкая область"/>
+    <region number="49" name=" Магаданская область"/>
+    <region number="50" name=" Московская область (1993-2001 гг)"/>
+    <region number="51" name=" Мурманская область"/>
+    <region number="52" name=" Нижегородская область (1993-2009 гг)"/>
+    <region number="53" name=" Новгородская область"/>
+    <region number="54" name=" Новосибирская область (1993-2010 гг)"/>
+    <region number="55" name=" Омская область"/>
+    <region number="56" name=" Оренбургская область"/>
+    <region number="57" name=" Орловская область"/>
+    <region number="58" name=" Пензенская область"/>
+    <region number="59" name=" Пермский край (1993-2010 гг)"/>
+    <region number="60" name=" Псковская область"/>
+    <region number="61" name=" Ростовская область (1993-2007 гг)"/>
+    <region number="62" name=" Рязанская область"/>
+    <region number="63" name=" Самарская область (1993-2007 гг)"/>
+    <region number="64" name=" Саратовская область"/>
+    <region number="65" name=" Сахалинская область"/>
+    <region number="66" name=" Свердловская область (1993-2006 гг)"/>
+    <region number="67" name=" Смоленская область"/>
+    <region number="68" name=" Тамбовская область"/>
+    <region number="69" name=" Тверская область"/>
+    <region number="70" name=" Томская область"/>
+    <region number="71" name=" Тульская область"/>
+    <region number="72" name=" Тюменская область"/>
+    <region number="73" name=" Ульяновская область"/>
+    <region number="74" name=" Челябинская область (1993-2007 гг)"/>
+    <region number="75" name=" Забайкальский край"/>
+    <region number="76" name=" Ярославская область"/>
+    <region number="77" name=" Москва (1993-1998 гг)"/>
+    <region number="78" name=" Санкт-Петербург (1993-2004 гг)"/>
+    <region number="79" name=" Еврейская автономная область"/>
+    <region number="80" name=" Забайкальский край"/>
+    <region number="81" name=" Пермский край"/>
+    <region number="82" name=" Республика Крым (с 2014 г)"/>
+    <region number="83" name=" Ненецкий автономный округ"/>
+    <region number="84" name=" Красноярский край"/>
+    <region number="85" name=" Иркутская область"/>
+    <region number="86" name=" Ханты-Мансийский АО (1993-2012 гг)"/>
+    <region number="87" name=" Чукотский автономный округ"/>
+    <region number="88" name=" Красноярский край"/>
+    <region number="89" name=" Ямало-Ненецкий автономный округ"/>
+    <region number="90" name=" Московская область (2001-2006 гг)"/>
+    <region number="91" name=" Калининградская область"/>
+    <region number="92" name=" Севастополь (с 2014 г)"/>
+    <region number="93" name=" Краснодарский край (2005-2011 гг)"/>
+    <region number="94" name=" Байконур"/>
+    <region number="95" name=" Чеченская республика (после 2000 г)"/>
+    <region number="96" name=" Свердловская область (2006-2013 гг)"/>
+    <region number="97" name=" Москва (2002-2005 гг)"/>
+    <region number="98" name=" Санкт-Петербург (2004-2010 гг)"/>
+    <region number="99" name=" Москва (1998-2002 гг)"/>
+    <region number="101" name=" Республика Адыгея"/>
+    <region number="102" name=" Республика Башкортостан (после 2006 г)"/>
+    <region number="103" name=" Республика Бурятия"/>
+    <region number="109" name=" Карачаево-Черкесская Республика"/>
+    <region number="113" name=" Республика Мордовия"/>
+    <region number="116" name=" Республика Татарстан (после 2006 г)"/>
+    <region number="118" name=" Удмуртская Республика"/>
+    <region number="121" name=" Чувашская Республика"/>
+    <region number="123" name=" Краснодарский край (после 2011 г)"/>
+    <region number="124" name=" Красноярский край (после 2009 г)"/>
+    <region number="125" name=" Приморский край (после 2005 г)"/>
+    <region number="134" name=" Волгоградская область (после 2012 г)"/>
+    <region number="136" name=" Воронежская область"/>
+    <region number="138" name=" Иркутская область"/>
+    <region number="142" name=" Кемеровская область (после 2011 г)"/>
+    <region number="150" name=" Московская область (2006-2009 гг)"/>
+    <region number="152" name=" Нижегородская область (после 2009 г)"/>
+    <region number="154" name=" Новосибирская область (после 2010 г)"/>
+    <region number="159" name=" Пермский край (после 2010 г)"/>
+    <region number="161" name=" Ростовская область (после 2007 г)"/>
+    <region number="163" name=" Самарская область (после 2007 г)"/>
+    <region number="164" name=" Саратовская область"/>
+    <region number="173" name=" Ульяновская область"/>
+    <region number="174" name=" Челябинская область (после 2007 гг)"/>
+    <region number="177" name=" Москва (2005-2007 гг)"/>
+    <region number="178" name=" Санкт-Петербург (после 2010 г)"/>
+    <region number="186" name=" Ханты-Мансийский АО (после 2012 г)"/>
+    <region number="190" name=" Московская область (2009-2013 гг)"/>
+    <region number="196" name=" Свердловская область (после 2013 г)"/>
+    <region number="197" name=" Москва (2010-2013 гг)"/>
+    <region number="199" name=" Москва (2007-2010 гг)"/>
+    <region number="750" name=" Московская область ( после 2013 г)"/>
+    <region number="777" name=" Москва (после 2013 г)')"/>
+
+
+
+</regions>
+

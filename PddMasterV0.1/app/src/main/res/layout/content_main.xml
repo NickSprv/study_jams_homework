@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nickolas.pddmasterv01.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/fragment_container"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView12" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_main_tests"
+                android:id="@+id/button_main_test_start"
+                android:translationZ="@dimen/button_translationZ"
+                android:background="@color/button_background_color"
+                android:layout_below="@+id/button_main_theory_start"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="26dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_main_theory"
+                android:id="@+id/button_main_theory_start"
+                android:translationZ="@dimen/button_translationZ"
+                android:background="@color/button_background_color"
+                android:layout_marginTop="145dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_main"
+                android:id="@+id/textView_main"
+                android:gravity="center"
+                android:layout_marginTop="28dp"
+                android:textSize="15dp"
+                android:layout_below="@+id/button_main_test_start"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_main_priv_start"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:gravity="center"
+                android:layout_alignBottom="@+id/button_main_theory_start"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="80dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

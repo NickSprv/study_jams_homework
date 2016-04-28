@@ -1,0 +1,378 @@
+﻿<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<style>
+	.demo {
+	width:100%;
+	height:100%;
+	border:1px solid #ffd54f;
+	border-collapse:collapse;
+	padding:5px;
+	}
+	.demo th {
+	border:1px solid #ffd54f;
+	padding:5px;
+	background:#F0F0F0;
+	}
+	.demo td {
+	border:1px solid #ffd54f;
+	text-align:center;
+	padding:5px;
+	}
+</style>
+<table class="demo">
+	<caption><br></caption>
+	<thead>
+	<tr>
+		<th>Список регионов</th>
+		<th>Автомобильные коды</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Республика Адыгея</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">01</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Республика Башкортостан</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">02, 102</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Республика Бурятия</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">03</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Республика Алтай</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">04</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Республика Дагестан</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">05</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Республика Ингушетия</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">06</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Кабардино-Балкарская Республика</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">07</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px;">Республика Калмыкия</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">08</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Карачаево-Черкесия</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">09</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Карелия</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">10</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Коми</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">11</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Марий Эл</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">12</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Мордовия</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">13, 113</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Саха (Якутия)</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">14</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Северная Осетия — Алания</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">15</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Татарстан</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">16, 116</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Тыва</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">17</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Удмуртская Республика</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">18</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Хакасия</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">19</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Чувашская Республика</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">21, 121</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Алтайский край</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">22</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Краснодарский край</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">23, 93, 123</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Красноярский край</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">24, 84, 88, 124</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Приморский край</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">25, 125</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ставропольский край</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">26, 126</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Хабаровский край</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">27, 127</strong></td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Амурская область</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">28</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Архангельская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">29</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Астраханская область</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">30</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Белгородская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">31</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Брянская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">32</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Владимирская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">33</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Волгоградская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">34, 134</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Вологодская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">35</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Воронежская область</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">36, 136</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ивановская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">37</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Иркутская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">38, 85, 138</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Калининградская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">39, 91</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Калужская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">40</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Камчатский край</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">41, 82</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Кемеровская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">42, 142</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Кировская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">43</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Костромская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">44</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Курганская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">45</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Курская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">46</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ленинградская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">47</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Липецкая область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">48</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Магаданская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">49</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Московская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">50, 90, 150, 190, 750</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Мурманская область</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">51</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Нижегородская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">52, 152</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Новгородская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">53</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Новосибирская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">54, 154</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Омская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">55</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Оренбургская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">56</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Орловская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">57</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Пензенская область</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">58</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Пермский край</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">59, 81, 159</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Псковская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">60</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ростовская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">61, 161</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Рязанская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">62</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Самарская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">63, 163</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Саратовская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">64, 164</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Сахалинская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">65</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Свердловская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">66, 96, 196</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Смоленская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">67</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Тамбовская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">68</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Тверская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">69, 169</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Томская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">70</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Тульская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">71</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Тюменская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">72</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ульяновская область</span></td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">73, 173</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Челябинская область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">74, 174</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Забайкальский край</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">75, 80</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ярославская область</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">76</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Москва</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">77, 97, 99, 177, 199, 197, 777</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Санкт-Петербург</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">78, 98, 178</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Еврейская автономная область</span>&nbsp;</td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">79</strong></td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Республика Крым</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">82, 777</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ненецкий автономный округ</span></td>
+		<td>&nbsp;<strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">83</strong></td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ханты-Мансийский автономный округ Югра</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">86, 186</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Чукотский автономный округ</span></td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">87</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Ямало-Ненецкий автономный округ</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">89</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Севастополь</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">92</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Байконур</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">94</strong>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><span style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">Чеченская республика</span>&nbsp;</td>
+		<td><strong style="color: rgb(94, 94, 94); font-family: Arial; font-size: 13px; line-height: 16px; text-align: left;">95</strong>&nbsp;</td>
+	</tr>
+	<tbody>
+</table>

@@ -1,0 +1,884 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_test_b5"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView9" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_text_name"
+                android:id="@+id/textView_bilet5_name"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros1"
+                android:id="@+id/textView_bilet5_vopros1"
+                android:gravity="left"
+                android:layout_marginTop="10dp" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v1"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_1"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/radioGroup_bilet5_v1">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v1_o1"
+                    android:id="@+id/radioButton_bilet5_vopros1_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v1_o2"
+                    android:id="@+id/radioButton_bilet5_vopros1_p2"
+                    android:layout_marginTop="5dp" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v1_o3"
+                    android:id="@+id/radioButton_bilet5_vopros1_p3"
+                    android:layout_marginTop="5dp" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros2"
+                android:id="@+id/textView_bilet5_v2"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v2"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_2"/>
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v2">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v2_o1"
+                    android:id="@+id/radioButton_bilet5_vopros2_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v2_o2"
+                    android:id="@+id/radioButton_bilet5_vopros2_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v2_o3"
+                    android:id="@+id/radioButton_bilet5_vopros2_p3" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros3"
+                android:id="@+id/textView_bilet5_v3"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v3"
+                android:src="@drawable/bilet_5_3"
+                android:layout_marginTop="5dp" />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v3">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v3_o1"
+                    android:id="@+id/radioButton_bilet5_vopros3_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v3_o2"
+                    android:id="@+id/radioButton_bilet5_vopros3_p2" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v3_o3"
+                    android:id="@+id/radioButton_bilet5_vopros3_p3" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros4"
+                android:id="@+id/textView_bilet5_v4"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v4"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_4"/>
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v4">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v4_o1"
+                    android:id="@+id/radioButton_bilet5_vopros4_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v4_o2"
+                    android:id="@+id/radioButton_bilet5_vopros4_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v4_o3"
+                    android:id="@+id/radioButton_bilet5_vopros4_p3" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros5"
+                android:id="@+id/textView_bilet5_v5"
+                android:layout_marginTop="10dp" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v55"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_5"/>
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v5">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v5_o1"
+                    android:id="@+id/radioButton_bilet5_vopros5_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v5_o2"
+                    android:id="@+id/radioButton_bilet5_vopros5_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v5_o3"
+                    android:id="@+id/radioButton_bilet5_vopros5_p3" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros6"
+                android:id="@+id/textView_bilet5_v6"
+                android:layout_marginTop="10dp" />
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v6">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v6_o1"
+                    android:id="@+id/radioButton_bilet5_vopros6_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v6_o2"
+                    android:id="@+id/radioButton_bilet5_vopros6_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v6_o3"
+                    android:id="@+id/radioButton_bilet5_vopros6_p3" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros7"
+                android:id="@+id/textView_bilet5_v7"
+                android:layout_marginTop="10dp" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v5"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_7"/>
+
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v7">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v7_o1"
+                    android:id="@+id/radioButton_bilet5_vopros7_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v7_o2"
+                    android:id="@+id/radioButton_bilet5_vopros7_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v7_o3"
+                    android:id="@+id/radioButton_bilet5_vopros7_p3" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros8"
+                android:id="@+id/textView_bilet5_v8"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v8"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_8"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v8">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v8_o1"
+                    android:id="@+id/radioButton_bilet5_vopros8_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v8_o2"
+                    android:id="@+id/radioButton_bilet5_vopros8_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v8_o3"
+                    android:id="@+id/radioButton_bilet5_vopros8_p3" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v8_o4"
+                    android:id="@+id/radioButton_bilet5_vopros8_p4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros9"
+                android:id="@+id/textView_bilet5_v9"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v9"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_9"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v9">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v9_o1"
+                    android:id="@+id/radioButton_bilet5_vopros9_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v9_o2"
+                    android:id="@+id/radioButton_bilet5_vopros9_p2" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v9_o3"
+                    android:id="@+id/radioButton_bilet5_vopros9_p3" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros10"
+                android:id="@+id/textView_bilet5_v10"
+                android:layout_marginTop="10dp" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v10"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_10"/>
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v10">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v10_o1"
+                    android:id="@+id/radioButton_bilet5_vopros10_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v10_o2"
+                    android:id="@+id/radioButton_bilet5_vopros10_p2" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v10_o3"
+                    android:id="@+id/radioButton_bilet5_vopros10_p3" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v10_o4"
+                    android:id="@+id/radioButton_bilet5_vopros10_p4" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v10_o5"
+                    android:id="@+id/radioButton_bilet5_vopros10_p5" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros11"
+                android:id="@+id/textView_bilet5_v11"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v11"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_11"/>
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v11">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v11_o1"
+                    android:id="@+id/radioButton_bilet5_vopros11_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v11_o2"
+                    android:id="@+id/radioButton_bilet5_vopros11_p2" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros12"
+                android:id="@+id/textView_bilet5_v12"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v12"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_12"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v12">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v12_o1"
+                    android:id="@+id/radioButton_bilet5_vopros12_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v12_o2"
+                    android:id="@+id/radioButton_bilet5_vopros12_p2" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v12_o3"
+                    android:id="@+id/radioButton_bilet5_vopros12_p3" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros13"
+                android:id="@+id/textView_bilet5_v13"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v13"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_13"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v13">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v13_o1"
+                    android:id="@+id/radioButton_bilet5_vopros13_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v13_o2"
+                    android:id="@+id/radioButton_bilet5_vopros13_p2" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros14"
+                android:id="@+id/textView_bilet5_v14"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v14"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_14"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v14">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v14_o1"
+                    android:id="@+id/radioButton_bilet5_vopros14_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v14_o2"
+                    android:id="@+id/radioButton_bilet5_vopros14_p2" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v14_o3"
+                    android:id="@+id/radioButton_bilet5_vopros14_p3" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros15"
+                android:id="@+id/textView_bilet5_v15"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v15"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_15"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v15">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v15_o1"
+                    android:id="@+id/radioButton_bilet5_vopros15_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v15_o2"
+                    android:id="@+id/radioButton_bilet5_vopros15_p2" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v15_o3"
+                    android:id="@+id/radioButton_bilet5_vopros15_p3" />
+
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros16"
+                android:id="@+id/textView_bilet5_v16"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v16"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_16"
+                />
+
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v16">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v16_o1"
+                    android:id="@+id/radioButton_bilet5_vopros16_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v16_o2"
+                    android:id="@+id/radioButton_bilet5_vopros16_p2" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v16_o3"
+                    android:id="@+id/radioButton_bilet5_vopros16_p3" />
+
+
+
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros17"
+                android:id="@+id/textView_bilet5_v17"
+                android:layout_marginTop="10dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v17">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v17_o1"
+                    android:id="@+id/radioButton_bilet5_vopros17_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v17_o2"
+                    android:id="@+id/radioButton_bilet5_vopros17_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v17_o3"
+                    android:id="@+id/radioButton_bilet5_vopros17_p3" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros18"
+                android:id="@+id/textView_bilet5_v18"
+                android:layout_marginTop="10dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v18">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v18_o1"
+                    android:id="@+id/radioButton_bilet5_vopros18_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v18_o2"
+                    android:id="@+id/radioButton_bilet5_vopros18_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v18_o3"
+                    android:id="@+id/radioButton_bilet5_vopros18_p3" />
+
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros19"
+                android:id="@+id/textView_bilet5_v19"
+                android:layout_marginTop="10dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v19">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v19_o1"
+                    android:id="@+id/radioButton_bilet5_vopros19_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v19_o2"
+                    android:id="@+id/radioButton_bilet5_vopros19_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v19_o3"
+                    android:id="@+id/radioButton_bilet5_vopros19_p3" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/bilet5_vopros20"
+                android:id="@+id/textView_bilet5_v20"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_bilet5_v20"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bilet_5_20"
+                />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/radioGroup_bilet5_v20">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v20_o1"
+                    android:id="@+id/radioButton_bilet5_vopros20_p1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v20_o2"
+                    android:id="@+id/radioButton_bilet5_vopros20_p2" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bilet5_v20_o3"
+                    android:id="@+id/radioButton_bilet5_vopros20_p3" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_bilet_result"
+                android:id="@+id/button_bilet5_result"
+                android:layout_marginTop="50dp"
+                android:background="@color/button_background_color"
+                android:translationZ="@dimen/button_translationZ" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/textView_bilet_result"
+                android:id="@+id/textView_bilet5_result"
+                android:layout_marginTop="25dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_bilet5_result"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/abc_input_method_navigation_guard"
+
+
+                android:gravity="center" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/share_button"
+                android:id="@+id/button_share_bilet5"
+                android:layout_gravity="center_horizontal"
+                android:translationZ="@dimen/button_translationZ"
+                android:background="@color/button_background_color" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

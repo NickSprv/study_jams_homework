@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickolas.pddmasterv01.Fragments.Fragment_theory_prilog"
+    android:background="@color/foreground_material_dark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button1_prilog"
+            android:id="@+id/button1_prilog"
+            android:background="@color/button_background_color"
+            android:translationZ="@dimen/button_translationZ"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button2_prilog"
+            android:id="@+id/button2_prilog"
+            android:background="@color/button_background_color"
+            android:translationZ="@dimen/button_translationZ"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button3_prilog"
+            android:id="@+id/button3_prilog"
+            android:background="@color/button_background_color"
+            android:translationZ="@dimen/button_translationZ"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+</FrameLayout>
